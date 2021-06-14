@@ -13,3 +13,12 @@ machines and requires many image processing techniques for feature extraction.
 Several machine learning algorithms are suitable for this job. Any detection or
 recognition by machine learning requires training algorithm and then testing them
 on a suitable dataset.
+
+## Dataset
+Fro this project we have kaggle dataset fer 2013: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data.  
+
+dataset_shape=(35887,3)  
+
+After reshaping for data:-  
+
+train shape (28709, 48, 48, 1) validation shape (3589, 48, 48, 1) validation shape (3589, 48, 48, 1)
